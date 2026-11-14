@@ -91,18 +91,17 @@ Abra [http://localhost:3000](http://localhost:3000) no navegador. Para encerrar 
 ## Organização do projeto
 
 ```text
-app.js                         Configura o Express, o Handlebars e os arquivos estáticos
-bin/www                        Inicia o servidor HTTP
-routes/index.js                Associa as rotas às ações do controlador
-controller/controllerOficinas.js
-                               Processa as requisições e prepara os dados das telas
-model/modelOficinas.js         Gerencia os registros em memória
-views/layout.hbs               Layout compartilhado e menu principal
-views/partials/menu.hbs         Menu de navegação
-views/index.hbs                Listagem, indicadores e modal de exclusão
-views/sobre.hbs                Página Sobre
-views/pesquisa.hbs             Formulário e resultados da pesquisa
-views/oficina/                 Formulários e consulta de oficinas
-public/stylesheets/            CSS da aplicação e Bootstrap offline
-public/javascripts/            JavaScript da aplicação e Bootstrap offline
+app.js                              Configura o Express, o Handlebars e os arquivos estáticos
+bin/www                             Inicia o servidor HTTP
+routes/index.js                     Associa as rotas às ações do controlador
+controller/controllerOficinas.js    Processa as requisições e prepara os dados das telas
+model/modelOficinas.js              Gerencia os registros em memória
+views/layout.hbs                    Layout compartilhado e menu principal
+views/partials/menu.hbs             Menu de navegação
+views/index.hbs                     Listagem, indicadores e modal de exclusão
+views/sobre.hbs                     Página Sobre
+views/pesquisa.hbs                  Formulário e resultados da pesquisa
+views/oficina/                      Formulários e consulta de oficinas
+public/stylesheets/                 CSS da aplicação e Bootstrap offline
+public/javascripts/                 JavaScript da aplicação e Bootstrap offline
 ```
