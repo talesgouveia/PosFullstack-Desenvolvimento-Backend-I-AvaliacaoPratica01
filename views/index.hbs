@@ -1,11 +1,13 @@
-<h1 class="mb-3">Oficinas cadastradas</h1>
+<header class="catalog-header">
+  <h1 class="mb-2">Oficinas cadastradas</h1>
 
-<p class="mb-3">
-  Total de oficinas: <strong>{{resumo.total}}</strong>
-  &nbsp; Abertas: <strong>{{resumo.abertas}}</strong>
-  &nbsp; Encerradas: <strong>{{resumo.encerradas}}</strong>
-  &nbsp; Carga horária das abertas: <strong>{{resumo.cargaHorariaAbertas}} h</strong>
-</p>
+  <p class="catalog-summary mb-0">
+    Total de oficinas: <strong>{{resumo.total}}</strong>
+    &nbsp; Abertas: <strong>{{resumo.abertas}}</strong>
+    &nbsp; Encerradas: <strong>{{resumo.encerradas}}</strong>
+    &nbsp; Carga horária das abertas: <strong>{{resumo.cargaHorariaAbertas}} h</strong>
+  </p>
+</header>
 
 <div class="mb-3">
   <a class="btn {{#if todasAtivo}}btn-primary{{else}}btn-link{{/if}}" href="/">Todas as Oficinas</a>

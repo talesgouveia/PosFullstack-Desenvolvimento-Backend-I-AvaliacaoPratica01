@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/javascripts/tema.js"></script>
     <title>{{titulo_pagina}}</title>
     <link rel="stylesheet" href="/stylesheets/bootstrap/bootstrap.min.css" />
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
     <main class="container mt-4">
+      <div class="text-end mb-2">
+        <button class="btn btn-outline-secondary btn-sm" id="alternarTema" type="button" aria-label="Tema atual: escuro. Alternar para tema claro">
+          Tema: escuro
+        </button>
+      </div>
       {{> menu}}
       {{{body}}}
     </main>

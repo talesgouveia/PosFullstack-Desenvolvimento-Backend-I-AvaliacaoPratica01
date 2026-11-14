@@ -6,6 +6,23 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.catalog-header {
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: #f0f7ff;
+  border-left: 0.3rem solid #0f766e;
+  border-radius: 0.5rem;
+}
+
+[data-bs-theme="dark"] .catalog-header {
+  background-color: #1c2a3a;
+  border-left-color: #5eead4;
+}
+
+.catalog-summary {
+  line-height: 1.75;
+}
+
 pre {
   white-space: pre-wrap;
 }

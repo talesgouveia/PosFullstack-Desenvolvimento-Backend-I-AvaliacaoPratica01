@@ -24,6 +24,8 @@ Os registros são guardados **em memória**. O catálogo começa vazio e os dado
 - JavaScript, HTML e CSS
 - Express Generator para a estrutura inicial do projeto
 
+A interface usa o tema escuro por padrão e oferece um controle para alternar entre os temas escuro e claro. A preferência fica salva no navegador.
+
 ## Requisitos
 
 - Node.js e npm instalados.
