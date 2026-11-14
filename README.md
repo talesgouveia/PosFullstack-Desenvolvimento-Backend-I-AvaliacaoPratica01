@@ -73,6 +73,19 @@ Abra [http://localhost:3000](http://localhost:3000) no navegador. Para encerrar 
 | GET | `/pesquisa` | Exibe a pesquisa |
 | POST | `/pesquisa` | Pesquisa por título e exibe os resultados |
 
+## Critérios adicionais de avaliação
+
+| Critério | Evidências na aplicação | Atendimento |
+|---|---|---|
+| Estrutura de pastas conforme as aulas | Separação entre inicialização em `app.js`, rotas em `routes/`, controladores em `controller/`, modelo em `model/`, telas em `views/` e arquivos estáticos em `public/`. | Atende à organização MVC demonstrada. |
+| Padrões e organização do código | As rotas encaminham as requisições ao controlador, que acessa os dados pelo modelo. As operações do modelo são assíncronas e os registros são objetos mantidos em memória. | Atende aos padrões centrais vistos na disciplina. |
+| Funcionamento dos fluxos | Cadastro, consulta, edição, alternância das inscrições, exclusão confirmada e pesquisa estão implementados. A carga horária é validada entre 1 e 40 horas. | Atende; os fluxos foram exercitados por HTTP e no navegador. |
+| Correção dos indicadores e do filtro de inscrições abertas | O resumo é calculado com base no catálogo completo; o filtro mostra apenas oficinas abertas e contempla os casos sem oficinas abertas. | Atende. |
+| Uso dos componentes Bootstrap | Menu `nav-fill` com item ativo, formulários, botões, tabela `table-hover` com cabeçalho `table-primary text-center` e modal de exclusão. Os arquivos Bootstrap são servidos localmente. | Atende; cadastro e confirmação/cancelamento do modal foram testados no navegador. |
+| Uso dos recursos estudados até a aula de Bootstrap | O projeto utiliza Node.js, Express, Handlebars, MVC e Bootstrap conforme o escopo do trabalho. | Atende aos recursos centrais utilizados na disciplina. Uma ressalva abaixo sobre o uso do `hbs`.|
+
+**Ressalva:** Os exemplos das aulas utilizam o pacote `hbs`, porém para mitigar dependências vulneráveis, o projeto passou a usar `express-handlebars`, que também renderiza templates Handlebars, mas é um adaptador diferente do mostrado nos exemplos. Isso não muda os fluxos nem o visual da aplicação.
+
 ## Organização do projeto
 
 ```text
